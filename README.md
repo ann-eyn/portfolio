@@ -23,7 +23,7 @@ Durante o desenvolvimento, foram aplicados os seguintes conceitos:
 
 ## 📸 Visualização
 
-**Em andamente...**
+**Em andamento...**
 
 
 Desenvolvido por Evelyn Sousa para fins de estudo.
