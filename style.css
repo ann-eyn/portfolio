@@ -1,0 +1,20 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f7f4f3;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.habilidade-alta {
+    color: #3f2537;
+    font-weight: bold;    
+}
+
+.habilidade-media {
+    color: #6e4462;    
+}
+
+.habilidade-baixa {
+    color: #a9829e;    
+}
