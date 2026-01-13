@@ -6,13 +6,6 @@ body {
     line-height: 1.6;
 }
 
-.habilidades section{
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .habilidade-alta {
     color: #3f2537;
     font-weight: bold;    
