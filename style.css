@@ -1,20 +1,43 @@
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #f7f4f3;
+    background-color: #f5efe8;
     padding: 20px;
     margin: 0;
     line-height: 1.6;
 }
 
 .habilidade-alta {
-    color: #3f2537;
+    color: #34150f;
     font-weight: bold;    
 }
 
 .habilidade-media {
-    color: #6e4462;    
+    color: #793e1d;
 }
 
 .habilidade-basica {
-    color: #a9829e;    
+    color: #755431; font-weight: lighter;    
+}
+
+section {
+    background-color: #f5efe8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.bio p {
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    width: 90%;
 }
