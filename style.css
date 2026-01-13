@@ -13,8 +13,7 @@ body {
 }
 
 .habilidade-alta {
-    color: #34150f;
-    font-weight: bold;    
+    color: #34150f;       
 }
 
 .habilidade-media {
@@ -22,7 +21,16 @@ body {
 }
 
 .habilidade-basica {
-    color: #755431; font-weight: lighter;    
+    color: #755431;   
+}
+
+.bio p {
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    width: 90%;
 }
 
 section {
@@ -33,11 +41,11 @@ section {
     margin-bottom: 15px;
 }
 
-.bio p {
-    text-align: justify;
+li {
+    font-size: 1.1rem;
     margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    width: 90%;
+}
+
+h3 {
+    font-weight:bolder;
 }
