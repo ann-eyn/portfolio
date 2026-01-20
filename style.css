@@ -1,88 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
 }
 
-h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #1a0f0f;
-}
-
-h2 {
-    color: #421c14;
-    font-size: 16px;
-    margin-top: 40px;
-    border-bottom: 2px solid #b59e7d;
-}
-
-h3 {
-    color: #421c14;
-    font-size: 18px;
-}
-
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #f5efe8;
+    background-color: #070D0D;
+    color: #F0EDE4;
+    font-family: 'Google Sans Code', monospace;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
     padding: 20px;
-    margin: 0;
-    line-height: 1.6;
 }
 
-.habilidade-alta {
-    color: #34150f;       
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow:  1;
+    width: 100%;
 }
 
-.habilidade-media {
-    color: #693415;
-}
+.start {
+    font-family: 'Google Sans Code', monospace;
+    font-size: 24px;
+    background-color: #F0EDE4;
+    color: #070D0D;
+    padding: 10px 20px;
+    border-radius: 5px;
 
-.habilidade-basica {
-    color: #755431;   
-}
-
-.bio p {
-    color: #1a0f0f;
-    font-size: 18px;
-    text-align: justify;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
-    width: 90%;
-}
-
-.projeto p {
-    color: #1a0f0f;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: auto;
-    width: 90%;
-}
-
-.info {
-    color: #421c14;
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: auto;
-    width: 90%;
-}
-
-section {
-    background-color: #f5efe8;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-}
-
-li {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-h3 {
-    font-weight:bolder;
 }
