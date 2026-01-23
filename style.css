@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Pixelify+Sans:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -30,11 +30,34 @@ body {
 }
 
 .start {
-    font-family: 'Google Sans Code', monospace;
+    font-family: 'Pixelify Sans', medium;
     font-size: 24px;
     background-color: #F0EDE4;
     color: #070D0D;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    cursor: pointer;
 
+}
+
+.start:hover {
+    transform: scale(1.05);
+    background-color: #070D0D;
+    color: #F0EDE4;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: 25px;
+    width: inherit;
+
+}
+
+.right-footer {
+    text-align: right;
 }
